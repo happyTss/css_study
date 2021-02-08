@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文字渐变</title>
+  <style>
+    .box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .text{
+      color: red;
+      background-image: -webkit-linear-gradient(bottom,green,pink);
+      background-clip:text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="text">渐变文字</div>
+  </div>
+</body>
+</html>
